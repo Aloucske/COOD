@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAOUCS的个人网站</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">LAOUCS</div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#portfolio">作品集</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>前端开发者 & UI设计师</h1>
+                <p>用代码创造美好体验</p>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <img src="avatar.jpg" alt="个人头像" class="avatar">
+                <div class="bio">
+                    <p>拥有5年前端开发经验，专注于响应式网页设计和用户体验优化。擅长使用现代Web技术打造高效、美观的解决方案。</p>
+                    <div class="skills">
+                        <h3>技术栈</h3>
+                        <div class="skill-item">HTML5/CSS3 <div class="progress" style="width: 95%"></div></div>
+                        <div class="skill-item">JavaScript <div class="progress" style="width: 85%"></div></div>
+                        <div class="skill-item">React <div class="progress" style="width: 80%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <h2>作品展示</h2>
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="项目1">
+                    <h3>电商平台</h3>
+                    <p>基于React的全栈电商解决方案</p>
+                </div>
+                <!-- 添加更多项目卡片 -->
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>联系我</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <input type="text" placeholder="姓名" required>
+                    <input type="email" placeholder="邮箱" required>
+                    <textarea placeholder="留言" rows="5" required></textarea>
+                    <button type="submit">发送</button>
+                </form>
+                <div class="social-links">
+                    <a href="#"><img src="github-icon.svg" alt="GitHub"></a>
+                    <a href="#"><img src="linkedin-icon.svg" alt="LinkedIn"></a>
+                    <a href="#"><img src="wechat-icon.svg" alt="微信"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 张三. 保留所有权利</p>
+    </footer>
+</body>
+</html> 
